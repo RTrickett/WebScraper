@@ -37,11 +37,6 @@ url1 = "https://www.national.co.uk/tyres-search?width=" + width + "&profile=" + 
        + "&diameter=" + diameter + "&pc=S101NU"
 url2 = "https://www.blackcircles.com/tyres/" + width + "-" + aspect_ratio + "-" + diameter
 
-# urls = ["https://www.national.co.uk/tyres-search?width=205&profile=55&diameter=16&pc=S101NU",
-#        "https://www.national.co.uk/tyres-search?width=225&profile=50&diameter=16&pc=S101NU",
-#        "https://www.national.co.uk/tyres-search?width=185&profile=60&diameter=14&pc=S101NU"]
-
-
 # Gathering data from the first website
 first_page_to_scrape = requests.get(url1)
 #print(first_page_to_scrape)   # prints a response relating to if the url exists and responds
